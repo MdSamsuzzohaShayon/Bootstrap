@@ -1,159 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
-        <!-- https://www.youtube.com/watch?v=k8ioDxSEjZU -->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>UI Website</title>
+    <title>Scroll</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- https://github.com/scrollreveal/scrollreveal -->
+
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <a href="#" class="navbar-brand ml-3">Shayon</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navbarMenu"
-                aria-expanded="false" aria-label="Toggle Navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    <nav class="navbar navbar-dafault navbar-expand-md navbar-light fixed-top">
+        <a class="navbar-brand" href="#">Scroll</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+            aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <div class="collapse navbar-collapse"></div>
-
-            <div class="collapse navbar-collapse" id="navbarMenu">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active"><a href="#" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Events</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Gallary</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Pages</a></li>
-                </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <button class="btn menu-right-btn border" type="submit">Template</button>
-                </form>
-            </div>
-        </nav>
-    </header>
-
-    <main>
-        <div class="container-fluid p-0">
-            <div class="site-content">
-                <div class="d-flex justify-content-center">
-                    <div class="d-flex flex-column">
-                        <h1 class="site-title">Bootstrap User Interface</h1>
-                        <p class="site-desc">
-                            Build responsive, mobile-first projects on the web
-                        </p>
-                        <div class="d-flex flex-row">
-                            <input type="button" class="btn site-btn1 px-4 py-3 mr-4 btn-dark" value="Buy Template">
-                            <input type="button" class="btn site-btn2 px-4 py-3 mr-4 btn-light" value="Know Features">
-                        </div>
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#showcase">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#info1">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#contract">Contract</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="https://example.com" id="dropdown01" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Project</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown01">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
                     </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="showcase">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <div class="showcase-left">
+                        <img src="img/man_PNG6513 (1).png" alt="left img">
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="showcase-right">
+                        <h1>Business is the activity of making one's living or making </h1>
+                        <p>A business is an organization or enterprising entity engaged in commercial, industrial, or
+                            professional activities. Businesses can be for-profit entities or nonprofit organizations
+                            that operate to fulfill a charitable mission or further a social cause.</p>
+                    </div>
+                    <br>
+                    <button type="button" class="btn btn-outline-info showcase-btn">Read More</button>
                 </div>
             </div>
         </div>
-        <div class="section-1">
-            <div class="container text-center">
-                <h1 class="heading-1">Fantustic Features</h1>
-                <h1 class="heading-2">& Different types of Template</h1>
-                <p class="pera-1">responsive grid system, extensive prebuilt components, and powerful plugins built on
-                    jQuery.</p>
-                <div class="row justify-content-center text-center">
-                    <div class="col-md-4">
-                        <div class="card" style="width:20rem;">
-                            <img src="img/flower-asia-asian-vietnam-art-work-1426203-pxhere.com.jpg" alt="Image2" class="card-img-top">
-                            <div class="card-body">
-                                <h4 class="card-title">Flexible</h4>
-                                <p class="card-text">card-img-top places a picture to the top of the card. With
-                                    .card-text , text can be added to the card. Text within .card-text can additionally
-                                    be styled with the regular</p>
-                            </div>
-                        </div>
+    </section>
+
+    <section id="testimonial">
+        <div class="container">
+            <p>someone who buys goods or services from a business. : a person who has a particular quality. See the
+                full definition for customer in the English Language Learners Dictionary. customer. a person who buys
+                goods or services from a shop or business, a person of a specified kind with whom one has to deal.</p>
+            <p class="customer">Leonel Messi</p>
+        </div>
+    </section>
+
+
+    <section id="info1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <div class="info-left">
+                        <img src="img/business-consulting-png-1.png" alt="Business">
                     </div>
-                    <div class="col-md-4">
-                        <div class="card" style="width:20rem;">
-                            <img src="img/nature-sunset-tree-animal-giraffe-water-1455563-pxhere.com.jpg" alt="Image1"
-                                class="card-img-top">
-                            <div class="card-body">
-                                <h4 class="card-title">Responsive</h4>
-                                <p class="card-text">card-img-top places a picture to the top of the card. With
-                                    .card-text , text can be added to the card. Text within .card-text can additionally
-                                    be styled with the regular</p>
-                            </div>
-                        </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="info-right">
+                        <h2>Get to know google home</h2>
+                        <p>Corporate is Cincinnati's premiere sneaker and clothing shop. We look to not only offer you
+                            the indie brands you won't find all over the tri-state, but also customer. Dear Customer,.
+                            Due to system maintenance, request you to clear the cache of your browser to seamlessly
+                            access YES BANK's corporate net banking service.</p>
                     </div>
-                    <div class="col-md-4">
-                        <div class="card" style="width:20rem;">
-                            <img src="img/alberta-amazing-attraction-417074.jpg" alt="Image1" class="card-img-top">
-                            <div class="card-body">
-                                <h4 class="card-title">UI UX</h4>
-                                <p class="card-text">card-img-top places a picture to the top of the card. With
-                                    .card-text , text can be added to the card. Text within .card-text can additionally
-                                    be styled with the regular</p>
-                            </div>
-                        </div>
-                    </div>
+                    <button class="btn btn-outline-info btn-lg">Read More</button>
                 </div>
             </div>
         </div>
+    </section>
+    <hr>
+    <section id="info2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <div class="info-left">
+                        <h2>Info Block  One</h2>
+                        <p>Corporate is Cincinnati's premiere sneaker and clothing shop. We look to not only offer you
+                            the indie brands you won't find all over the tri-state, but also customer. Dear Customer,.
+                            Due to system maintenance, request you to clear the cache of your browser to seamlessly
+                            access YES BANK's corporate net banking service.</p>
 
-        <div class="section-2">
-            <div class="container-fluid">
-                <div class="d-flex justify-content-end">
-                    <div class="d-flex flex-column m-4">
-                        <h1 class="heading-1">Like & Share yout love</h1>
-                        <p class="para">A card is a flexible and extensible content container.</p>
-                        <input type="button" class="btn btn-danger" value="Show">
                     </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="info-right">
+                        <h2>Info Block Two</h2>
+                        <p>Corporate is Cincinnati's premiere sneaker and clothing shop. We look to not only offer you
+                            the indie brands you won't find all over the tri-state, but also customer. Dear Customer,.
+                            Due to system maintenance, request you to clear the cache of your browser to seamlessly
+                            access YES BANK's corporate net banking service.</p>
+                    </div>
+                    <button class="btn btn-outline-info btn-lg">Read More</button>
                 </div>
             </div>
         </div>
+    </section>
 
-
-        <div class="section-3">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="d-flex flex-row">
-                            <i class="fa fa-question fa-3x m-2"></i>
-
-                            <div class="d-flex flex-column">
-                                <h3 class="m-2">24*7 Support</h3>
-                                <p class="m-2">Apply display utilities to create a flexbox container and transform
-                                    direct
-                                    children elements into flex items. </p>
-                            </div>
+    <section id="contract">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-sm-5">
+                    <form >
+                        <div class="form-group">
+                            <label > Name: </label>
+                            <input type="text" class="form-control" placeholder="Enter name">
                         </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="d-flex flex-row">
-                            <i class="fas fa-seedling fa-3x m-2"></i>
-
-                            <div class="d-flex flex-column">
-                                <h3 class="m-2">Marketing</h3>
-                                <p class="m-2">Apply display utilities to create a flexbox container and transform
-                                    direct
-                                    children elements into flex items. </p>
-                            </div>
+                        <div class="form-group">
+                            <label > Email: </label>
+                            <input type="email" class="form-control" placeholder="Email address">
                         </div>
-                    </div>
-                    <div class="col-md-4"></div>
+                        <div class="form-group">
+                            <label > Message: </label>
+                            <textarea placeholder="Enter your message" class="form-control"></textarea>
+                        </div>
+                        <button class="btn btn-default">Submit</button>
+                    </form>
                 </div>
+                <div class="col-md-5 col-sm-5"></div>
             </div>
         </div>
-    </main>
+    </section>
 
+    <footer>
+        <p class="text-center"> Text Scroll Copyright &copy; 2018</p>
+    </footer>
 
-
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>
+
+    <script>
+        window.sr = ScrollReveal();
+        sr.reveal('.navbar', {
+            duration: 2000, origin: 'bottom'
+        });
+        sr.reveal('.showcase-left', {
+            duration: 2000, origin: 'top', distance:'300px'
+        });
+        sr.reveal('.showcase-right', {
+            duration: 2000, origin: 'right', distance:'300px'
+        });
+        sr.reveal('.showcase-btn', {
+            duration: 2000,delay:2000, origin: 'bottom'
+        });
+        sr.reveal('.testimonial div', {
+            duration: 2000, origin: 'bottom'
+        });
+        sr.reveal('.info-left', {
+            duration: 2000,origin: 'left', distance:'3000px', viewFactor:0.2
+        });
+        sr.reveal('.info-right', {
+            duration: 2000,origin: 'right', distance:'3000px', viewFactor:0.2
+        });
+    </script>
+
+    <script>
+    
+    $(function() {
+      // Smooth Scrolling
+      $('a[href*="#"]:not([href="#"])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html, body').animate({
+              scrollTop: target.offset().top
+            }, 1000);
+            return false;
+          }
+        }
+      });
+    });
+    
+    </script>
 </body>
 
 </html>

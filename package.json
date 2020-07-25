@@ -1,0 +1,24 @@
+{
+  "name": "Bootstrap",
+  "version": "1.0.0",
+  "description": "[Official website](https://v5.getbootstrap.com/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MdSamsuzzohaShayon/Bootstrap.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MdSamsuzzohaShayon/Bootstrap/issues"
+  },
+  "homepage": "https://github.com/MdSamsuzzohaShayon/Bootstrap#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.0-alpha1",
+    "bootstrap-icons": "^1.0.0-alpha5"
+  }
+}

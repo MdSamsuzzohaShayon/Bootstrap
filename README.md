@@ -1,7 +1,14 @@
-Resource or libries I used in this project
+# Bootstrap 5 Alpha
 
- 1. bootstrap
- 2. font-awesome
- 3. google-fonts
- 4. animate.css
+[Official website](https://v5.getbootstrap.com/)
+
+ 1. Initilizing package.json file `npm init -y`
+ 2. Install bootstrap 
+ ```
+ npm install bootstrap@next
+ npm install bootstrap@5.0.0-alpha1
+ ```
+ 3. Installing bootstrap icons
+ ```npm install bootstrap-icons```
+ 4. 
  

@@ -1,4 +1,4 @@
-# Bootstrap Admin theme customization
+# Bootstrap [theme customization](https://getbootstrap.com/docs/4.5/getting-started/theming/)
 
  1. Initilizing package.json file `npm init -y`
  2. Install [Webpack](https://webpack.js.org/guides/getting-started/)
@@ -17,5 +17,6 @@ npm install @fontawesome/fontawesome-free --save-dev
 ```
 npx webpack --config webpack.config.js
 ```
+ 6. Install fibers
 
  

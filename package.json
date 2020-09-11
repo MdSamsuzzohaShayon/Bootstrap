@@ -1,8 +1,8 @@
 {
-  "name": "Bootstrap",
+  "name": "bootstrap-basic",
   "version": "1.0.0",
   "description": "[Official website](https://v5.getbootstrap.com/)",
-  "main": "index.js",
+  "main": "js/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,15 +10,17 @@
     "type": "git",
     "url": "git+https://github.com/MdSamsuzzohaShayon/Bootstrap.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/MdSamsuzzohaShayon/Bootstrap/issues"
   },
   "homepage": "https://github.com/MdSamsuzzohaShayon/Bootstrap#readme",
-  "dependencies": {
-    "bootstrap": "^5.0.0-alpha1",
-    "bootstrap-icons": "^1.0.0-alpha5"
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.14.0",
+    "fibers": "^5.0.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
   }
 }

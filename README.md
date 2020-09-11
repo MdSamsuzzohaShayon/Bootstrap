@@ -1,14 +1,21 @@
-# Bootstrap 5 Alpha
-
-[Official website](https://v5.getbootstrap.com/)
+# Bootstrap Admin theme customization
 
  1. Initilizing package.json file `npm init -y`
- 2. Install bootstrap 
+ 2. Install [Webpack](https://webpack.js.org/guides/getting-started/)
  ```
- npm install bootstrap@next
- npm install bootstrap@5.0.0-alpha1
+npm install webpack webpack-cli --save-dev
  ```
- 3. Installing bootstrap icons
- ```npm install bootstrap-icons```
- 4. 
+ 3. Recompiling our sass file though webpack dev server
+```
+npm install webpack-dev-server --save-dev
+```
+ 4. Installing font awesome under repository of fortawesome
+```
+npm install @fontawesome/fontawesome-free --save-dev
+```
+ 5. configuring webpack
+```
+npx webpack --config webpack.config.js
+```
+
  

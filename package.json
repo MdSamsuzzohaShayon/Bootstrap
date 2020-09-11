@@ -1,0 +1,22 @@
+{
+  "name": "bootstrap-basic",
+  "version": "1.0.0",
+  "description": "1. Initilizing package.json file `npm init -y`\r  2. Install [Webpack](https://webpack.js.org/guides/getting-started/)\r  ```\r npm install webpack webpack-cli --save-dev\r  ```\r  3. Recompiling our sass file though webpack dev server\r ```\r npm install webpack-dev-server --save-dev\r ```\r  4. Installing font awesome under repository of fortawesome\r ```\r npm install @fontawesome/fontawesome-free --save-dev\r ```\r  5. configuring webpack\r ```\r npx webpack --config webpack.config.js\r ```\r  6. Install fibers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MdSamsuzzohaShayon/Bootstrap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MdSamsuzzohaShayon/Bootstrap/issues"
+  },
+  "homepage": "https://github.com/MdSamsuzzohaShayon/Bootstrap#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.2"
+  }
+}
